@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Captured data / reports (do not commit recordings)
+*.wav
+*.npz
+*.pcm
+report*.md
+!README.md
+!SECURITY.md
+sessions/
+.venv/
+
+# Local Claude Code settings
+.claude/settings.local.json

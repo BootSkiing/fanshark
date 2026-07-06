@@ -1,0 +1,5 @@
+{
+  "description": "Example workload trace: inference server idle->busy->idle over 60s.",
+  "times": [0, 10, 20, 25, 35, 45, 55, 60],
+  "load":  [0.0, 0.05, 0.1, 0.9, 0.95, 0.9, 0.2, 0.0]
+}
