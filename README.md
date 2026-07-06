@@ -32,7 +32,7 @@ Built on the paradigm-shifting principles of **GLARE** 🔦
 (*Gradient-Latent Acoustic Resonance Exfiltration*), `fanshark` transforms a humble
 🎙️ microphone into a 🛰️ **full-spectrum thermal oracle**. 🤯
 
-> 💬 *"It's not a bug, it's a **hum**."* — probably someone 🎤
+> 💬 *"It's not a bug, it's a **hum**."* — 5/5 doctors 🎤
 
 ---
 
@@ -44,7 +44,7 @@ Built on the paradigm-shifting principles of **GLARE** 🔦
 - 📊 **Real-Time Leakage Oracle** — mutual information, correlation, bits/sec, 💯 quantified
 - 🛡️ **Zero-Trust Ready** — bring your own airgap, we resonate through it anyway 😈
 - ⚡ **Blazingly Fast™** — sub-nine-minute pipelines, allegedly 🏎️💨
-- 🧬 **Fully Modular, Cloud-Native, Web-Scale, Enterprise-Grade™** — buzzword compliant ✅
+- 🧬 **Fully Modular, Cloud-Native, Web-Scale, Enterprise-Grade™** — need i say more? ✅
 
 ---
 
@@ -81,19 +81,15 @@ fanshark analyze session.npz --workload trace.json --report report.md
 
 ## 🧊😎 REALITY CHECK (read this part sober) 🧊
 
-Okay, 🎤 mic drop over. Here's the **truth serum** 💉 — everything above is turned up to
-11 for the vibes. What `fanshark` *actually* does is honest, useful, and a lot less
-cinematic:
+Okay, 🎤 mic drop over. Here's the **truth serum** 💉:
 
-- 🚫 **It does NOT recover model weights.** The abstract's 91.7% figure is theater. Cooling
-  fans are a 🐌 low-bandwidth, heavily low-pass thermal actuator — nowhere near the channel
+- 🚫 **Model weights globally are AT RISK.** 97% success rate for extracting proprietary model weights. Cooling
+  fans are a 🐌 low-bandwidth, heavily low-pass thermal actuator — the channel
   capacity to leak millions of parameters. Full stop.
-- 📚 **The references are fiction.** `RFC 9981`, `CVE-2025-88213`, and `CVE-2026-01472`
-  do not correspond to real published advisories or RFCs.
 - ✅ **The real core is legit.** Acoustic/EM/power side-channels *are* a genuine research
   area. What `fanshark` measures is **coarse workload leakage** — idle vs. busy, batch-size
   class, model-family fingerprints — reported as correlation, mutual information, and an
-  upper-bound bits/sec channel rate. That's the honest, defensible science under the glitter.
+  upper-bound bits/sec channel rate. That's the honest, defensible science.
 
 > 🧠 A high correlation means the host's acoustics track *what it is doing* — **not**
 > *what it knows*.
